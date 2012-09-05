@@ -42,7 +42,6 @@ body {
     overflow:hidden;
     // background-color: #f2f2f2;
     color: #3c3c3c;
-    font-size: 62.5%;
     -webkit-font-smoothing: antialiased;
 }
 a {
@@ -217,14 +216,11 @@ mark {
     height: 100%;
     overflow-y: scroll;
     overflow-x: hidden;
-    font-size: 1.0em;
 }
 #content {
     width: 850px;
     margin: 0 auto 0 auto;
     padding: 30px 0 30px 0;
-    font-family: 'DejaVu Sans', Palatino, Georgia, serif;
-    font-size: 1.5em;
     line-height: 1.400000em;
 }
 
