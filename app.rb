@@ -11,7 +11,6 @@ get '/pages/:name' do
   text = File.read "#{settings.root}/pages/#{name}.md"
   text = MarkdownParser.new(prepare(text)).to_html
   @page = unprepare text
-  puts @page
   slim :page
 end
 
